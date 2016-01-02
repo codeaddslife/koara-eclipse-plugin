@@ -1,21 +1,16 @@
 package io.koara;
 
+import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
 import org.osgi.framework.BundleContext;
 
-/**
- * The activator class controls the plug-in life cycle
- */
 public class Activator extends AbstractUIPlugin {
 
-	// The plug-in ID
 	public static final String PLUGIN_ID = "io.koara.koara"; //$NON-NLS-1$
 
-	// The shared instance
 	private static Activator plugin;
-
+	
 	public Activator() {
-	    System.out.println("ACTIVATE KOARA");
 	}
 
 	public void start(BundleContext context) throws Exception {
@@ -32,4 +27,8 @@ public class Activator extends AbstractUIPlugin {
 		return plugin;
 	}
 
+	public static ImageDescriptor getImageDescriptor(String path) {
+		return imageDescriptorFromPlugin(PLUGIN_ID, path);
+	}
+	
 }

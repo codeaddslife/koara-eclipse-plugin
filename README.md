@@ -1,1 +1,0 @@
-# koara-eclipse-plugin
