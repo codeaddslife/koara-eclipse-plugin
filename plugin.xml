@@ -2,32 +2,16 @@
 <?eclipse version="3.4"?>
 <plugin>
 
-   <extension
-         point="org.eclipse.ui.editors">
+   <!-- open with Koara Editor -->
+   <extension point="org.eclipse.ui.editors">
       <editor
             name="Koara Editor"
             extensions="kd"
             icon="icons/icon.png"
-            contributorClass="io.koara.editors.MultiPageEditorContributor"
-            class="io.koara.editors.MultiPageEditor"
-            id="io.koara.editors.MultiPageEditor">
+            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="io.koara.editors.KoaraEditor"
+            id="io.koara.editors.KoaraEditor">
       </editor>
    </extension>
-   <!--
-   <extension
-         point="org.eclipse.ui.newWizards">
-      <category
-            name="Sample Wizards"
-            id="io.koara">
-      </category>
-      <wizard
-            name="Multi-page Editor file"
-            icon="icons/sample.gif"
-            category="io.koara"
-            class="io.koara.wizards.SampleNewWizard"
-            id="io.koara.wizards.SampleNewWizard">
-      </wizard>
-   </extension>
-   -->
-
+   
 </plugin>

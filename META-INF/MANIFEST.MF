@@ -1,14 +1,13 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: Koara Eclipse Plugin
+Bundle-Name: Koara
 Bundle-SymbolicName: io.koara;singleton:=true
-Bundle-Version: 1.0.0.qualifier
+Bundle-Version: 0.1.0
 Bundle-Activator: io.koara.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.jface.text,
  org.eclipse.core.resources,
- org.eclipse.ui.editors,
- org.eclipse.ui.ide
-Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+ org.eclipse.ui.editors
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Bundle-ActivationPolicy: lazy
