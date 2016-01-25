@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <description url="http://dadacoalition.org/yedit">
+      This is an Eclipse plugin for editing and working with Koara documents.
+   </description>
+   <feature url="features/io.koara.eclipse.feature_0.0.0.jar" id="io.koara.eclipse.feature" version="0.0.0">
+      <category name="Koara"/>
+   </feature>
+   <category-def name="Koara" label="Koara"/>
+</site>

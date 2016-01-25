@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature id="io.koara.eclipse.feature" label="Koara Feature" version="0.0.1.qualifier">
+
+   <description>
+      This is an Eclipse plugin for editing and working with Koara documents
+   </description>
+
+   <plugin id="io.koara.eclipse" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
+   
+</feature>
