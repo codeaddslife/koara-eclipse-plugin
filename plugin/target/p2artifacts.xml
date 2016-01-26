@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?artifactRepository version='1.1.0'?>
 <artifacts size='1'>
-  <artifact classifier='osgi.bundle' id='io.koara.eclipse.plugin' version='0.0.1.201601251840-SNAPSHOT'>
+  <artifact classifier='osgi.bundle' id='io.koara.eclipse.plugin' version='0.0.1.201601261122-SNAPSHOT'>
     <properties size='5'>
-      <property name='artifact.size' value='3883'/>
-      <property name='download.size' value='3883'/>
+      <property name='artifact.size' value='15432'/>
+      <property name='download.size' value='15432'/>
       <property name='maven-groupId' value='io.koara.eclipse'/>
       <property name='maven-artifactId' value='io.koara.eclipse.plugin'/>
       <property name='maven-version' value='0.0.1-SNAPSHOT'/>

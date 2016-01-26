@@ -1,36 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <units size='1'>
-  <unit id='io.koara.eclipse.plugin' version='0.0.1.201601251840-SNAPSHOT'>
-    <update id='io.koara.eclipse.plugin' range='[0.0.0,0.0.1.201601251840-SNAPSHOT)' severity='0'/>
+  <unit id='io.koara.eclipse.plugin' version='0.0.1.201601261122-SNAPSHOT'>
+    <update id='io.koara.eclipse.plugin' range='[0.0.0,0.0.1.201601261122-SNAPSHOT)' severity='0'/>
     <properties size='4'>
-      <property name='org.eclipse.equinox.p2.name' value='Koara editor'/>
+      <property name='org.eclipse.equinox.p2.name' value='io.koara.eclipse.plugin'/>
       <property name='maven-groupId' value='io.koara.eclipse'/>
       <property name='maven-artifactId' value='io.koara.eclipse.plugin'/>
       <property name='maven-version' value='0.0.1-SNAPSHOT'/>
     </properties>
     <provides size='3'>
-      <provided namespace='org.eclipse.equinox.p2.iu' name='io.koara.eclipse.plugin' version='0.0.1.201601251840-SNAPSHOT'/>
-      <provided namespace='osgi.bundle' name='io.koara.eclipse.plugin' version='0.0.1.201601251840-SNAPSHOT'/>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='io.koara.eclipse.plugin' version='0.0.1.201601261122-SNAPSHOT'/>
+      <provided namespace='osgi.bundle' name='io.koara.eclipse.plugin' version='0.0.1.201601261122-SNAPSHOT'/>
       <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
     </provides>
-    <requires size='8'>
+    <requires size='4'>
       <required namespace='osgi.bundle' name='org.eclipse.ui' range='0.0.0'/>
       <required namespace='osgi.bundle' name='org.eclipse.core.runtime' range='0.0.0'/>
-      <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='0.0.0'/>
       <required namespace='osgi.bundle' name='org.eclipse.jface.text' range='0.0.0'/>
-      <required namespace='osgi.bundle' name='org.eclipse.ui.views' range='0.0.0'/>
-      <required namespace='osgi.bundle' name='org.eclipse.core.resources' range='0.0.0'/>
-      <required namespace='osgi.bundle' name='org.eclipse.ui.ide' range='0.0.0'/>
-      <required namespace='osgi.bundle' name='org.eclipse.ui.workbench.texteditor' range='0.0.0'/>
+      <required namespace='osgi.bundle' name='org.eclipse.ui.editors' range='0.0.0'/>
     </requires>
     <artifacts size='1'>
-      <artifact classifier='osgi.bundle' id='io.koara.eclipse.plugin' version='0.0.1.201601251840-SNAPSHOT'/>
+      <artifact classifier='osgi.bundle' id='io.koara.eclipse.plugin' version='0.0.1.201601261122-SNAPSHOT'/>
     </artifacts>
     <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
     <touchpointData size='1'>
       <instructions size='1'>
         <instruction key='manifest'>
-          Bundle-SymbolicName: io.koara.eclipse.plugin;singleton:=true&#xA;Bundle-Version: 0.0.1.201601251840-SNAPSHOT&#xA;
+          Bundle-SymbolicName: io.koara.eclipse.plugin;singleton:=true&#xA;Bundle-Version: 0.0.1.201601261122-SNAPSHOT&#xA;
         </instruction>
       </instructions>
     </touchpointData>
