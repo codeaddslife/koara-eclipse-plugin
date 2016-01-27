@@ -5,6 +5,6 @@
       This is an Eclipse plugin for editing and working with Koara documents
    </description>
 
-   <plugin id="io.koara.eclipse" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
+   <plugin id="io.koara.eclipse.plugin" download-size="0" install-size="0" version="0.0.0" unpack="false"/>
    
 </feature>
