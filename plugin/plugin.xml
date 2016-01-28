@@ -3,10 +3,11 @@
 <plugin>
 
    <extension point="org.eclipse.ui.editors">
-      <editor name="Koara Editor" extensions="kd" icon="icons/sample.gif"
-            contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor" 
-            class="io.koara.eclipse.editor.KoaraLEditor" id="io.koara.eclipse.editor.KoaraLEditor">
+      <editor name="Koara Editor" extensions="kd"
+            icon="icons/icon.png" contributorClass="org.eclipse.ui.texteditor.BasicTextEditorActionContributor"
+            class="io.koara.eclipse.editors.KoaraEditor" id="io.koara.eclipse.editors.KoaraEditor">
       </editor>
    </extension>
+   
 
 </plugin>

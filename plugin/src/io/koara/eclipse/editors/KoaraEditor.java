@@ -1,4 +1,4 @@
-package xtest.editors;
+package io.koara.eclipse.editors;
 
 import org.eclipse.ui.editors.text.TextEditor;
 
@@ -9,9 +9,10 @@ public class KoaraEditor extends TextEditor {
 	public KoaraEditor() {
 		super();
 		colorManager = new ColorManager();
-		setSourceViewerConfiguration(new XMLConfiguration(colorManager));
-		setDocumentProvider(new XMLDocumentProvider());
+		setSourceViewerConfiguration(new KoaraConfiguration(colorManager));
+		setDocumentProvider(new KoaraDocumentProvider());
 	}
+	
 	public void dispose() {
 		colorManager.dispose();
 		super.dispose();

@@ -1,4 +1,4 @@
-package xtest;
+package io.koara.eclipse;
 
 import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.ui.plugin.AbstractUIPlugin;
