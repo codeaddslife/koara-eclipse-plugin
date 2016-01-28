@@ -15,7 +15,7 @@
 
 	<properties>
         <p2.qualifier>SNAPSHOT</p2.qualifier>
-		<tycho.version>0.24.0</tycho.version>
+		<tycho.version>0.23.0</tycho.version>
 	</properties>
 
 	<repositories>
