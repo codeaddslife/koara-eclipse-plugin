@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<feature id="io.koara.eclipse.feature" label="Koara Feature" version="0.0.1.qualifier">
+<feature id="io.koara.eclipse.feature" label="Koara Feature" version="0.1.0.qualifier">
 
    <description>
       This is an Eclipse plugin for editing and working with Koara documents
