@@ -9,6 +9,8 @@ import org.eclipse.jface.text.rules.Token;
 import org.eclipse.jface.text.source.ISourceViewer;
 import org.eclipse.jface.text.source.SourceViewerConfiguration;
 
+import io.koara.eclipse.editors.scanner.KoaraScanner;
+
 public class KoaraConfiguration extends SourceViewerConfiguration {
 
 	private KoaraScanner scanner;
@@ -24,20 +26,17 @@ public class KoaraConfiguration extends SourceViewerConfiguration {
 		};
 	}
 
-	protected KoaraScanner getInlineScanner() {
+	protected KoaraScanner getScanner() {
 		if (scanner == null) {
 			scanner = new KoaraScanner(colorManager);
-			scanner.setDefaultReturnToken(
-				new Token(new TextAttribute(colorManager.getColor(IKoaraColorConstants.DEFAULT))));
 		}
 		return scanner;
 	}
 
-
 	public IPresentationReconciler getPresentationReconciler(ISourceViewer sourceViewer) {
 		PresentationReconciler reconciler = new PresentationReconciler();
 
-		DefaultDamagerRepairer dr = new DefaultDamagerRepairer(getInlineScanner());
+		DefaultDamagerRepairer dr = new DefaultDamagerRepairer(getScanner());
 		reconciler.setDamager(dr, IDocument.DEFAULT_CONTENT_TYPE);
 		reconciler.setRepairer(dr, IDocument.DEFAULT_CONTENT_TYPE);
 
