@@ -3,12 +3,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>io.koara.eclipse</groupId>
-        <artifactId>io.koara.eclipse</artifactId>
-        <version>0.1.0-SNAPSHOT</version>
+        <groupId>com.codeaddslife.koara.eclipse</groupId>
+        <artifactId>com.codeaddslife.koara.eclipse</artifactId>
+        <version>0.2.0-SNAPSHOT</version>
     </parent>
 
-    <artifactId>io.koara.eclipse.plugin</artifactId>
+    <artifactId>com.codeaddslife.koara.eclipse.plugin</artifactId>
     <packaging>eclipse-plugin</packaging>
     
     <build>
