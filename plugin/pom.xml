@@ -10,7 +10,7 @@
 
     <artifactId>com.codeaddslife.koara.eclipse.plugin</artifactId>
     <packaging>eclipse-plugin</packaging>
-    
+
     <build>
         <sourceDirectory>../src</sourceDirectory>
     </build>

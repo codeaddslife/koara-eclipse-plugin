@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: io.koara.eclipse.plugin
-Bundle-SymbolicName: io.koara.eclipse.plugin;singleton:=true
-Bundle-Version: 0.1.0.qualifier
-Bundle-Activator: io.koara.eclipse.Activator
+Bundle-Name: com.codeaddslife.koara.eclipse.plugin
+Bundle-SymbolicName: com.codeaddslife.koara.eclipse.plugin;singleton:=true
+Bundle-Version: 0.2.0.qualifier
+Bundle-Activator: com.codeaddslife.koara.eclipse.Activator
 Require-Bundle: org.eclipse.ui,
  org.eclipse.core.runtime,
  org.eclipse.jface.text,

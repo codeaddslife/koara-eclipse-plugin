@@ -1,4 +1,4 @@
-package io.koara.eclipse;
+package com.codeaddslife.koara.eclipse;
 
 import org.eclipse.jface.resource.ImageDescriptor;
 import org.eclipse.ui.plugin.AbstractUIPlugin;

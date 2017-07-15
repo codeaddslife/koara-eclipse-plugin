@@ -1,4 +1,4 @@
-package io.koara.eclipse.editors;
+package com.codeaddslife.koara.eclipse.editors;
 
 import org.eclipse.ui.editors.text.TextEditor;
 
